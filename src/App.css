@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-shadow: 3px 5px 4px rgba(34, 32, 32, 0.2);
+  padding-bottom: 20px ;
+
 }
 
-.App-link {
-  color: #61dafb;
+.image{
+  padding-left: 5%;
+}
+.image >img{
+  height: 140px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list-item{
+  list-style: none;
+  display: flex;
+  margin-right: 15%;
+  justify-content: space-between;  
+}
+.list-item >li{
+  padding: 80px;
+  font-size: 30px;
+  font-family:fantasy
+}
+
+.item {
+  list-style-type: none; /* Remove the default numbering */
+  padding: 0; /* Remove default padding */
+}
+
+.item li {
+  font-weight: bold; /* Make the text bold */
+  display: block; /* Display list items as block elements */
+  margin-bottom: 10px; /* Add some spacing between list items */
+  align-items: center;
 }
